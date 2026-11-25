@@ -2,6 +2,10 @@
 
 一个原生 macOS 菜单栏剪贴板工具，支持文本和 PNG/TIFF 图片。需要 macOS 13 或更新版本，以及安装了 Swift 的 Xcode 或命令行开发工具。
 
+## 界面预览
+
+![ClipSpot 剪贴板搜索面板](docs/demo.png)
+
 ## 安装
 
 从 GitHub Releases 下载 DMG，打开后将 ClipSpot 拖到 Applications。安装包支持 Apple Silicon 和 Intel Mac，需要 macOS 13 或更新版本。此版本尚未经过 Apple 公证，首次打开时 macOS 可能阻止启动；可在“系统设置 → 隐私与安全性”中选择仍要打开。
