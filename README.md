@@ -37,4 +37,4 @@ open build/ClipSpot.app
 ./scripts/build-dmg.sh
 ```
 
-生成的安装包位于 `build/ClipSpot-0.2.0.dmg`。
+生成的安装包位于 `build/ClipSpot-0.2.1.dmg`。

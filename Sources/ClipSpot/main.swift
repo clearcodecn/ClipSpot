@@ -119,7 +119,8 @@ struct SearchField: NSViewRepresentable {
     func makeNSView(context: Context) -> NSTextField {
         let field = NSTextField(string: text)
         field.placeholderString = "搜索剪贴板历史"
-        field.isBordered = false; field.drawsBackground = false
+        field.isBordered = false; field.isBezeled = false; field.drawsBackground = false
+        field.focusRingType = .none
         field.font = .systemFont(ofSize: 23); field.delegate = context.coordinator
         DispatchQueue.main.async { field.window?.makeFirstResponder(field) }
         return field
